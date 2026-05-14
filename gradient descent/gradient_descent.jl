@@ -33,7 +33,7 @@ X_profit = [ones(N_profit) A[:,1]]
 y_profit = A[:,2]
 
 # ╔═╡ ca54bc63-3571-49a0-9a98-1fe6d436c61f
-# code lại phương pháp bình phương tối thiểu (ols)
+# code lại giải nghiệm đúng của hàm bình phương tối thiểu (ols)
 
 # ╔═╡ 02ebfc76-030a-4561-8217-ec2cc7daa76b
 function fit(X,y)
